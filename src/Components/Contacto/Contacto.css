@@ -1,0 +1,63 @@
+.contacto {
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+.contacto .contactoContainer {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 {
+  border: 2px solid lightgray;
+  border-radius: 10%;
+  padding: 10%;
+  display: flex;
+  margin-bottom: 10%;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon {
+  border: 2px solid orange;
+  width: 30px;
+  height: 40px;
+  border-radius: 40%;
+  padding: 2%;
+  background: orange;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+  margin-left: -85%;
+  margin-top: 20%;
+  width: 50px;
+  color: white;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactIc {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactIc .contactIco {
+  border: 2px solid orange;
+  width: 30px;
+  height: 40px;
+  border-radius: 40%;
+  padding: 2%;
+  background: orange;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPe {
+  margin-left: 7%;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPe h2 {
+  font-size: 110%;
+  padding: 0;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPe p {
+  font-size: 80%;
+}
+.contacto .contactoContainer .contactoRegistrar h3 {
+  text-align: center;
+}
+.contacto .contactoContainer .contactoRegistrar p {
+  font-size: 80%;
+}
+.contacto .contactoContainer .contactoRegistrar button {
+  width: 40%;
+  font-size: 80%;
+}/*# sourceMappingURL=Contacto.css.map */

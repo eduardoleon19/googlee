@@ -1,0 +1,116 @@
+.service {
+  width: 100%;
+  background: gray;
+  margin-bottom: 7%;
+}
+.service .serviceContainer {
+  margin: 10px;
+  gap: 5px;
+}
+.service .serviceContainer .serviceDivText {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.service .serviceContainer .serviceDivText h3 {
+  text-align: center;
+  font-size: 23px;
+}
+.service .serviceContainer .serviceDivText p {
+  padding-top: 10px;
+  color: white;
+  font-size: 16px;
+}
+.service .servicePanel .serviceDivPanel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 3px solid white;
+  padding: 1rem;
+  border-radius: 90px;
+  width: 80%;
+  background: white;
+  margin-left: 10%;
+}
+.service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivImgContainer {
+  border: 3px solid orange;
+  padding: 0.5rem;
+  border-radius: 70px;
+  width: 97%;
+  background: orange;
+  margin-left: 1%;
+}
+.service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivImgContainer .serviceDivImg {
+  align-items: center;
+}
+.service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivImgContainer .serviceDivImg img {
+  border: 3px solid white;
+  border-radius: 75px;
+  width: 90%;
+  margin-left: 5%;
+}
+.service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText {
+  padding: 7px;
+}
+.service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText p {
+  text-align: center;
+  color: black;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 570px) {
+  .service .serviceContainer .serviceDivText h3 {
+    font-size: 27px;
+  }
+  .service .serviceContainer .serviceDivText p {
+    font-size: 18px;
+  }
+  .service .serviceContainer .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivImgContainer .serviceDivImg img {
+    border: 7px solid white;
+  }
+  .service .serviceContainer .servicePanel .serviceDivPanel .serviceDivPanelText {
+    padding: 20px;
+  }
+  .service .serviceContainer .servicePanel .serviceDivPanel .serviceDivPanelText p {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .service .servicePanel {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+  }
+  .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivImgContainer .serviceDivImg img {
+    border: 7px solid white;
+  }
+  .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText p {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .service .serviceContainer {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+  .service .servicePanel {
+    width: 85%;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 7.5%;
+  }
+  .service .servicePanel .serviceDivPanel {
+    width: 89%;
+  }
+  .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText .ci {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1333px) {
+  .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText .ci {
+    margin-left: 21%;
+  }
+}/*# sourceMappingURL=Servoces.css.map */

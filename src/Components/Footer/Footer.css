@@ -1,0 +1,96 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background: lightgrey;
+}
+.footer .footerContainer {
+  gap: 20px;
+  padding: 0 20px;
+}
+.footer .footerContainer .footerImgDiv {
+  padding: 2rem 2rem 0 2rem;
+}
+.footer .footerContainer .footerImgDiv img {
+  width: 80%;
+}
+.footer .footerContainer .footerLinks span {
+  font-weight: 600;
+}
+.footer .footerContainer .footerLinks ul {
+  margin-top: 15px;
+}
+.footer .footerContainer .footerLinks ul li a {
+  color: black;
+  transition: var(--transition);
+}
+.footer .footerContainer .footerLinks ul li a:hover {
+  color: var(--primaryColor);
+  margin-left: 10px;
+  font-weight: 500;
+}
+.footer .footerContainer .footerSocial span {
+  font-weight: 700;
+}
+.footer .footerContainer .footerSocial .footerSocialIcons {
+  margin-top: 15px;
+  height: 4rem;
+}
+.footer .footerContainer .footerSocial .footerSocialIcons .socialIcon {
+  height: 3rem;
+  width: auto;
+  color: gray;
+  margin-right: 0.8rem;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 10px 10px;
+  box-shadow: var(--boxShadow);
+  transition: var(--transition03s);
+}
+.footer .footerContainer .footerSocial .footerSocialIcons .socialIcon:hover {
+  color: white;
+  background: var(--primaryColor);
+  margin-bottom: 10px;
+}
+.footer .footerSign {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 2%;
+  border-top: 1px solid black;
+}
+
+@media screen and (min-width: 680px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    background: lightgrey;
+  }
+  .footer .footerContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .footerContainer .footerInfoDiv {
+    margin-top: 30px;
+    width: 90%;
+  }
+  .footer .footerContainer .footerInfoDiv p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .footer .footerContainer .footerInfoDiv p {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer .footerContainer {
+    padding: 1.5rem;
+    margin-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer .footerContainer .footerImgDiv img {
+    width: 100%;
+  }
+  .footer .footerContainer .footerInfoDiv p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

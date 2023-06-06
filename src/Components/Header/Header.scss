@@ -1,0 +1,130 @@
+.header {
+    margin: 1rem;
+    position: relative;
+    z-index: 1000;
+    .headerDiv {
+        justify-content: space-between;
+        .logoDiv {
+            img {
+                width: 20%;
+                height: auto;
+            }
+        }
+        .listDiv {
+            ul {
+                li {
+                    font-weight: bold;
+                    &:hover {
+                        color: var(--primaryColor);
+                    }
+                }
+            }
+        }
+        .listDiv {
+            top: 50px;
+            right: 20px;
+        }
+        .toggleIcon {
+            .icon {
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .header {
+        .headerDiv {
+            .listDiv {
+                top: 50px;
+            }
+            .toggleIcon {
+                .icon {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .header {
+        .headerDiv {
+            .listDiv {
+                position: absolute;
+                right: -300px;
+                background: var(--greyBg);
+                border-radius: 10px;
+                border: 4px solid var(--whiteColor);
+                padding: 2rem 3rem;
+                ul {
+                    flex-direction: column;
+                    text-align: center;
+                    li {
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+            .showToggleList {
+                right: 30px;
+            }
+            .btnBar {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 961px) {
+    .header {
+        .headerDiv {
+           .logoDiv {
+              img {
+                    width: 35%;
+                    height: auto;
+                }
+            }
+            .listDiv {
+                margin-right: 30px;
+                ul {
+                    gap: 20px;
+                    li {
+                        /*background: none;*/
+                        font-size: 18px;
+                    }
+                }
+                .btnList {
+                    display: none;
+                }
+            }
+            .toggleIcon {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1332px) {
+    .header {
+        .headerDiv {
+            .logoDiv {
+                img {
+                    width: 20%;
+                    margin-left: 20px;
+                }
+            }
+            .listDiv {
+                ul {
+                    li {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .btnBar {
+                font-size: 16px;
+            }
+        }
+    }
+}

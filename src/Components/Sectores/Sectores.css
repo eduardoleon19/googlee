@@ -1,0 +1,74 @@
+.sectore {
+  width: 90%;
+}
+.sectore .sectorContainer {
+  width: 100%;
+  border: 3px solid lightgray;
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 5%;
+}
+.sectore .sectorContainer .sectorDivText h5 {
+  font-size: 20px;
+  text-align: center;
+}
+.sectore .sectorContainer .sectorDivText p {
+  font-size: 15px;
+  text-align: center;
+}
+.sectore .sectorContainer .sectorDivIcons {
+  width: 100%;
+}
+.sectore .sectorContainer .sectorDivIcons .sectorDivIcon {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorIcon {
+  border: 2px solid orange;
+  padding: 1rem;
+  width: 40px;
+  height: auto;
+  margin-left: 10%;
+  border-radius: 95px;
+  background: orange;
+}
+.sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorIcon .icon {
+  color: white;
+  margin-left: -22px;
+  display: grid;
+  width: 50px;
+}
+.sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorDivPe p {
+  color: black;
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 680px) {
+  .sectore .sectorContainer .sectorDivIcons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 680px) {
+  .sectore .sectorContainer .sectorDivIcons .sectorDivIcon {
+    width: 100%;
+  }
+  .sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorIcon {
+    width: 4rem;
+    height: 5rem;
+  }
+  .sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorIcon .icon {
+    height: 70%;
+    margin-left: -40%;
+    margin-top: 20%;
+  }
+  .sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorDivPe p {
+    margin-top: 25px;
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=Sectores.css.map */

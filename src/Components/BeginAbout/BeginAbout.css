@@ -1,0 +1,67 @@
+.beginAbout {
+  width: 100%;
+  height: auto;
+}
+.beginAbout .beginAboutDivImg img {
+  filter: brightness(50%);
+}
+.beginAbout .beginAboutText {
+  /*margin-right: 110px;*/
+  position: absolute;
+  left: 20%;
+  text-align: center;
+  width: 60%;
+  top: 18%;
+}
+.beginAbout .beginAboutText h1 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: -15%;
+}
+.beginAbout .beginAboutText h4 {
+  color: orange;
+  padding: 0px;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .beginAbout .beginAboutText {
+    top: 23%;
+  }
+  .beginAbout .beginAboutText h1 {
+    font-size: 40px;
+    margin-bottom: -8%;
+  }
+  .beginAbout .beginAboutText h4 {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .beginAbout .beginAboutText {
+    top: 35%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .beginAbout .beginAboutText {
+    top: 40%;
+  }
+  .beginAbout .beginAboutText h1 {
+    font-size: 50px;
+    margin-bottom: -5%;
+  }
+  .beginAbout .beginAboutText h4 {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .beginAbout .beginAboutText {
+    top: 50%;
+  }
+  .beginAbout .beginAboutText h1 {
+    font-size: 500%;
+    margin-bottom: -7%;
+  }
+  .beginAbout .beginAboutText h4 {
+    font-size: 470%;
+  }
+}/*# sourceMappingURL=BeginAbout.css.map */

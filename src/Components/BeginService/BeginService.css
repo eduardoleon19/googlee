@@ -1,0 +1,67 @@
+.beginService {
+  width: 100%;
+  height: auto;
+}
+.beginService .beginServiceDivImg img {
+  filter: brightness(50%);
+}
+.beginService .beginServiceText {
+  /*margin-right: 110px;*/
+  position: absolute;
+  left: 20%;
+  text-align: center;
+  width: 60%;
+  top: 18%;
+}
+.beginService .beginServiceText h1 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: -15%;
+}
+.beginService .beginServiceText h4 {
+  color: orange;
+  padding: 0px;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .beginService .beginServiceText {
+    top: 23%;
+  }
+  .beginService .beginServiceText h1 {
+    font-size: 40px;
+    margin-bottom: -8%;
+  }
+  .beginService .beginServiceText h4 {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .beginService .beginServiceText {
+    top: 30%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .beginService .beginServiceText {
+    top: 35%;
+  }
+  .beginService .beginServiceText h1 {
+    font-size: 50px;
+    margin-bottom: -5%;
+  }
+  .beginService .beginServiceText h4 {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .beginService .beginServiceText {
+    top: 45%;
+  }
+  .beginService .beginServiceText h1 {
+    font-size: 500%;
+    margin-bottom: -10%;
+  }
+  .beginService .beginServiceText h4 {
+    font-size: 470%;
+  }
+}/*# sourceMappingURL=BeginService.css.map */

@@ -1,0 +1,81 @@
+.beginHome {
+  /*display: flex;*/
+  width: 100%;
+  height: auto;
+}
+.beginHome .beginHome {
+  position: absolute;
+}
+.beginHome .beginHomeText {
+  /*margin-right: 110px;*/
+  position: absolute;
+  right: 2%;
+  text-align: right;
+  width: 60%;
+  top: 50%;
+}
+.beginHome .beginHomeText h4 {
+  color: blue;
+  padding: 0px;
+}
+
+@media screen and (min-width: 320px) {
+  .beginHome .beginHomeText {
+    width: 70%;
+    top: 20%;
+  }
+  .beginHome .beginHomeText h4 {
+    font-size: 7px;
+  }
+  .beginHome .beginHomeText h1 {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .beginHome .beginHomeText {
+    width: 65%;
+    top: 23%;
+  }
+  .beginHome .beginHomeText h4 {
+    font-size: 10px;
+  }
+  .beginHome .beginHomeText h1 {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .beginHome .beginHomeText {
+    width: 65%;
+    top: 30%;
+  }
+  .beginHome .beginHomeText h4 {
+    font-size: 15px;
+  }
+  .beginHome .beginHomeText h1 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .beginHome .beginHomeText {
+    width: 60%;
+    top: 40%;
+  }
+  .beginHome .beginHomeText h4 {
+    font-size: 20px;
+  }
+  .beginHome .beginHomeText h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .beginHome .beginHomeText {
+    width: 60%;
+    top: 50%;
+  }
+  .beginHome .beginHomeText h4 {
+    font-size: 23px;
+  }
+  .beginHome .beginHomeText h1 {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=BeginHome.css.map */

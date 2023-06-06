@@ -1,0 +1,152 @@
+.service {
+    width: 100%;
+    background: #FBBC05;
+    margin-bottom: 7%;
+    .serviceContainer {
+        //width: 100%;
+        margin: 10px;
+        gap: 5px;
+        .serviceDivText {
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+            h3 {
+                text-align: center;
+                font-size: 23px;
+            }
+            p {
+                padding-top: 10px;
+                color: white;
+                font-size: 16px;
+            }
+        }
+    }
+    .servicePanel {
+        .serviceDivPanel {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: 3px solid white;
+            padding: 1rem;
+            border-radius: 90px;
+            width: 80%;
+            background: white;
+            margin-left: 10%;
+            .serviceDivImgPanelContain {
+                .serviceDivImgContainer {
+                    border: 3px solid #EA4335;
+                    padding: 0.5rem;
+                    border-radius: 70px;
+                    width: 97%;
+                    background: #EA4335;
+                    margin-left: 1%;
+                    .serviceDivImg {
+                        align-items: center;
+                        img {
+                            border: 3px solid white;
+                            border-radius: 75px;
+                            width: 90%;
+                            margin-left: 5%;
+                        }
+                    }
+                }
+                .serviceDivPanelText {
+                    padding: 7px;
+                    p {
+                        text-align: center;
+                        color: black;
+                        font-weight: 1000;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .service {
+        .serviceContainer {
+            .serviceDivText {
+                h3 {
+                    font-size: 27px;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
+            .servicePanel {
+                .serviceDivPanel {
+                    .serviceDivImgPanelContain {
+                        .serviceDivImgContainer {
+                            .serviceDivImg {
+                                img {
+                                    border: 7px solid white;
+                                }
+                            }
+                        }
+                    }
+                    .serviceDivPanelText {
+                        padding: 20px;
+                        p {
+                            font-size: 35px;
+                            line-height: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .service {
+       .servicePanel {
+            grid-template-columns: repeat(2, 1fr);
+            display: grid;
+            .serviceDivPanel {
+                .serviceDivImgPanelContain {
+                    .serviceDivImgContainer {
+                        .serviceDivImg {
+                            img {
+                                border: 7px solid white;
+                            }
+                        }
+                    }
+                    .serviceDivPanelText {
+                        p {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .service {
+        .serviceContainer {
+            width: 85%;
+            margin-left: 7.5%;            
+        }
+        .servicePanel {
+            width: 85%;
+            grid-template-columns: repeat(3, 1fr);
+            margin-left: 7.5%;              
+            .serviceDivPanel {
+                width: 89%;
+                .serviceDivImgPanelContain {
+                    .serviceDivPanelText {
+                        p {
+                            width: 100%;
+                            font-size: 20px;
+                        }
+                        .ci {
+                            text-align: center;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}

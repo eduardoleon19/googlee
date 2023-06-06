@@ -1,0 +1,106 @@
+.beginContact {
+    width: 100%;
+    height: auto;
+    //z-index: -10;
+    .beginContactDivImg {
+        img {
+            filter: brightness(50%);
+        }
+    }
+    .beginContactText {
+        /*margin-right: 110px;*/
+        position: absolute;
+        left: 20%;
+        text-align: center;
+        width: 60%;
+        top: 17%;
+        //z-index: ;
+        h1 {
+            color: white;
+            font-size: 35px;
+            margin-bottom: -15%;
+        }
+        h4 {
+            color: orange;
+            padding: 0px;
+            font-size: 30px;
+        }
+    }
+}
+@media screen and (min-width: 480px) {
+    .beginContact {
+        .beginContactText {
+            top: 22%;
+            h1 {
+                font-size: 40px;
+                margin-bottom: -8%;
+            }
+            h4 {
+                font-size: 35px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 540px) {
+    .beginContact {
+        .beginContactText {
+            top: 24%;
+        }
+    }
+}
+@media screen and (min-width: 600px) {
+    .beginContact {
+        .beginContactText {
+            top: 28%;
+        }
+    }
+}
+@media screen and (min-width: 680px) {
+    .beginContact {
+        .beginContactText {
+            top: 30%;
+        }
+    }
+}
+@media screen and (min-width: 800px) {
+    .beginContact {
+        .beginContactText {
+            top: 32%;
+            h1 {
+                font-size: 50px;
+                margin-bottom: -5%;
+            }
+            h4 {
+                font-size: 45px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 960px) {
+    .beginContact {
+        .beginContactText {
+            top: 38%;
+            h1 {
+                font-size: 500%;
+                margin-bottom: -7%;
+            }
+            h4 {
+                font-size: 470%;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1330px) {
+    .beginContact {
+        .beginContactText {
+            top: 50%;
+            h1 {
+                font-size: 500%;
+                margin-bottom: -7%;
+            }
+            h4 {
+                font-size: 470%;
+            }
+        }
+    }
+}

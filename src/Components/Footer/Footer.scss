@@ -1,0 +1,112 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background: lightgrey;
+    .footerContainer {
+        gap: 20px;
+        padding: 0 20px;
+        .footerImgDiv {
+            padding: 2rem 2rem 0 2rem;
+            img {
+                width: 80%;
+            }
+        }
+        .footerLinks {
+            span {
+                font-weight:600;
+            }
+            p {
+                color: black;
+                transition: var(--transition);
+                margin-bottom: -3px;
+                &:hover {
+                    color: var(--primaryColor);
+                    margin-left: 10px;
+                    font-weight: 500;
+                } 
+            }
+        }
+        .footerSocial {
+            span {
+                font-weight: 700;
+            }
+            .footerSocialIcons {
+                margin-top: 15px;
+                height: 4rem;
+                .socialIcon {
+                    height: 3rem;
+                    width: auto;
+                    color: gray;
+                    margin-right: 0.8rem;
+                    border-radius: 20px;
+                    border: 1px solid gray;
+                    padding: 10px 10px;
+                    box-shadow: var(--boxShadow);
+                    transition: var(--transition03s);
+                        &:hover {
+                            color: white;
+                            background: var(--primaryColor);
+                            margin-bottom: 10px;
+                        } 
+                }
+            }
+        }
+    }
+    .footerSign {
+        margin-top: 1rem;
+        text-align: center;
+        padding: 2%;
+        border-top: 1px solid black;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .footer {
+        width: 100%;
+        height: auto;
+        background: lightgrey;
+        .footerContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .footerInfoDiv {
+                margin-top: 30px;
+                width: 90%;
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .footer {
+        .footerContainer {
+            .footerInfoDiv {
+                p {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        .footerContainer {
+            padding: 1.5rem;
+            margin-top: 30px;
+            grid-template-columns: repeat(4, 1fr);
+            .footerImgDiv {
+                img {
+                    width: 100%;
+                }
+            }
+            .footerInfoDiv {
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

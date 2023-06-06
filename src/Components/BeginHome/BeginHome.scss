@@ -1,0 +1,90 @@
+.beginHome {
+    /*display: flex;*/
+    width: 100%;
+    height: auto;
+    .beginHome {
+        position: absolute;
+    }
+    .beginHomeText {
+        /*margin-right: 110px;*/
+        position: absolute;
+        right: 2%;
+        text-align: right;
+        width: 60%;
+        top: 50%;
+        h4 {
+            color: blue;
+            padding: 0px;
+        }
+    }
+}
+@media screen and (min-width: 320px) {
+    .beginHome {
+        .beginHomeText {
+            width: 70%;
+            top: 20%;
+            h4 {
+                font-size: 7px;
+            }
+            h1 {
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 480px) {
+    .beginHome {
+        .beginHomeText {
+            width: 65%;
+            top: 23%;
+            h4 {
+                font-size: 10px;
+            }
+            h1 {
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 680px) {
+    .beginHome {
+        .beginHomeText {
+            width: 65%;
+            top: 30%;
+            h4 {
+                font-size: 15px;
+            }
+            h1 {
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 800px) {
+    .beginHome {
+        .beginHomeText {
+            width: 60%;
+            top: 40%;
+            h4 {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 25px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 960px) {
+    .beginHome {
+        .beginHomeText {
+            width: 60%;
+            top: 50%;
+            h4 {
+                font-size: 23px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.about {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 10%;
+    .aboutContainer {
+        margin: 0 20px;
+        gap: 10px;
+        .aboutDivImgContainer {
+            gap: 10px;
+            .aboutDivImg {
+                border: 1px solid var(--greyBg);
+                padding: 0.5rem;
+                border-radius: 20px;
+                img {
+                    border-radius: 20px;
+                }
+                &:hover {
+                    border: 5px solid #EA4335;
+                }
+            }
+        }
+       .aboutDivText {
+            h2 {
+                font-size: 18px;
+                text-align: center;
+                color: #4285F4;    
+            }
+            p {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 480px) {
+    .about {
+        .aboutContainer {
+            .aboutDivImgContainer {
+                gap: 20px;
+                .aboutDivImg {
+                    border: 1px solid var(--greyBg);
+                    padding: 0.5rem;
+                    border-radius: 30px;
+                    img {
+                        border-radius: 30px;
+                    }
+                }
+            }
+            .aboutDivText {
+                h2 {
+                    font-size: 20px;
+                }
+                p {
+                    margin-top: 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 670px) {
+    .about {
+        .aboutContainer {
+            .aboutDivImgContainer {
+                .aboutDivImg {
+                    padding: 1.5rem;
+                    border-radius: 50px;
+                    img {
+                        border-radius: 50px;
+                    }
+                }
+            }
+            .aboutDivText {
+                h2 {
+                    font-size: 25px;
+                }
+                p {
+                    margin-top: 20px;
+                    font-size: 18px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .about {
+        .aboutContainer {
+            grid-template-columns: repeat(2, 1fr);
+            .aboutDivText {
+                margin-left: 20px;
+                h2 {
+                    font-size: 30px;
+                }
+                p {
+                    margin-top: 20px;
+                    font-size: 20px;
+                }
+            }
+            
+        }
+    }
+}

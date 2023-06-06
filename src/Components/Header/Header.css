@@ -1,0 +1,92 @@
+.header {
+  margin: 1rem;
+  position: relative;
+  z-index: 1000;
+}
+.header .headerDiv {
+  justify-content: space-between;
+}
+.header .headerDiv .logoDiv img {
+  width: 20%;
+  height: auto;
+}
+.header .headerDiv .listDiv ul li {
+  font-weight: bold;
+}
+.header .headerDiv .listDiv ul li:hover {
+  color: var(--primaryColor);
+}
+.header .headerDiv .listDiv {
+  top: 50px;
+  right: 20px;
+}
+.header .headerDiv .toggleIcon .icon {
+  width: 30px;
+  height: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .header .headerDiv .listDiv {
+    top: 50px;
+  }
+  .header .headerDiv .toggleIcon .icon {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header .headerDiv .listDiv {
+    position: absolute;
+    right: -300px;
+    background: var(--greyBg);
+    border-radius: 10px;
+    border: 4px solid var(--whiteColor);
+    padding: 2rem 3rem;
+  }
+  .header .headerDiv .listDiv ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header .headerDiv .listDiv ul li {
+    margin-bottom: 1rem;
+  }
+  .header .headerDiv .showToggleList {
+    right: 30px;
+  }
+  .header .headerDiv .btnBar {
+    display: none;
+  }
+}
+@media screen and (min-width: 961px) {
+  .header .headerDiv .logoDiv img {
+    width: 35%;
+    height: auto;
+  }
+  .header .headerDiv .listDiv {
+    margin-right: 30px;
+  }
+  .header .headerDiv .listDiv ul {
+    gap: 20px;
+  }
+  .header .headerDiv .listDiv ul li {
+    /*background: none;*/
+    font-size: 18px;
+  }
+  .header .headerDiv .listDiv .btnList {
+    display: none;
+  }
+  .header .headerDiv .toggleIcon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .header .headerDiv .logoDiv img {
+    width: 20%;
+    margin-left: 20px;
+  }
+  .header .headerDiv .listDiv ul li {
+    font-size: 20px;
+  }
+  .header .headerDiv .btnBar {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,82 @@
+.about {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 10%;
+}
+.about .aboutContainer {
+  margin: 0 20px;
+  gap: 10px;
+}
+.about .aboutContainer .aboutDivImgContainer {
+  gap: 10px;
+}
+.about .aboutContainer .aboutDivImgContainer .aboutDivImg {
+  border: 1px solid var(--greyBg);
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+.about .aboutContainer .aboutDivImgContainer .aboutDivImg img {
+  border-radius: 20px;
+}
+.about .aboutContainer .aboutDivImgContainer .aboutDivImg:hover {
+  border: 3px solid var(--thirdColor);
+}
+.about .aboutContainer .aboutDivText h2 {
+  font-size: 18px;
+  text-align: center;
+}
+.about .aboutContainer .aboutDivText p {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .about .aboutContainer .aboutDivImgContainer {
+    gap: 20px;
+  }
+  .about .aboutContainer .aboutDivImgContainer .aboutDivImg {
+    border: 1px solid var(--greyBg);
+    padding: 0.5rem;
+    border-radius: 30px;
+  }
+  .about .aboutContainer .aboutDivImgContainer .aboutDivImg img {
+    border-radius: 30px;
+  }
+  .about .aboutContainer .aboutDivText h2 {
+    font-size: 20px;
+  }
+  .about .aboutContainer .aboutDivText p {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 670px) {
+  .about .aboutContainer .aboutDivImgContainer .aboutDivImg {
+    padding: 1.5rem;
+    border-radius: 50px;
+  }
+  .about .aboutContainer .aboutDivImgContainer .aboutDivImg img {
+    border-radius: 50px;
+  }
+  .about .aboutContainer .aboutDivText h2 {
+    font-size: 25px;
+  }
+  .about .aboutContainer .aboutDivText p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .about .aboutContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about .aboutContainer .aboutDivText {
+    margin-left: 20px;
+  }
+  .about .aboutContainer .aboutDivText h2 {
+    font-size: 30px;
+  }
+  .about .aboutContainer .aboutDivText p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=About.css.map */
