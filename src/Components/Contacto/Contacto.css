@@ -1,6 +1,6 @@
 .contacto {
   width: 100%;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-bottom: 10%;
 }
 .contacto .contactoContainer {
@@ -10,36 +10,27 @@
 }
 .contacto .contactoContainer .contactoDivIcons .contactoCont1 {
   border: 2px solid lightgray;
-  border-radius: 10%;
+  border-radius: 50px;
   padding: 10%;
   display: flex;
   margin-bottom: 10%;
+  align-items: center;
 }
 .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon {
   border: 2px solid orange;
   width: 30px;
-  height: 40px;
-  border-radius: 40%;
+  height: 50px;
+  border-radius: 40px;
   padding: 2%;
   background: orange;
 }
 .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+  display: grid;
+  align-items: center;
   margin-left: -85%;
   margin-top: 20%;
   width: 50px;
   color: white;
-}
-.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactIc {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactIc .contactIco {
-  border: 2px solid orange;
-  width: 30px;
-  height: 40px;
-  border-radius: 40%;
-  padding: 2%;
-  background: orange;
 }
 .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPe {
   margin-left: 7%;
@@ -51,13 +42,109 @@
 .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPe p {
   font-size: 80%;
 }
-.contacto .contactoContainer .contactoRegistrar h3 {
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcons .contactoIc {
+  border: 2px solid orange;
+  width: 30px;
+  height: 50px;
+  border-radius: 40px;
+  padding: 2%;
+  background: orange;
+  margin-bottom: 5px;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcons .contactoIc .icone {
+  margin-left: -45%;
+  margin-top: 55%;
+  width: 50px;
+  color: white;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPes {
+  margin-left: 7%;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPes h2 {
+  font-size: 110%;
+  padding: 0;
+}
+.contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoDivPes p {
+  font-size: 80%;
+}
+.contacto .contactoContainer .contactoRegistrar .tittle {
+  font-size: 100%;
+  display: grid;
   text-align: center;
 }
-.contacto .contactoContainer .contactoRegistrar p {
-  font-size: 80%;
+.contacto .contactoContainer .contactoRegistrar .formSection label {
+  font-size: 100%;
 }
-.contacto .contactoContainer .contactoRegistrar button {
-  width: 40%;
-  font-size: 80%;
+.contacto .contactoContainer .contactoRegistrar .formSection input {
+  width: 100%;
+}
+.contacto .contactoContainer .contactoRegistrar .formSection textarea {
+  width: 100%;
+  height: 10rem;
+}
+.contacto .contactoContainer .contactoRegistrar .btn {
+  margin-top: 5%;
+  width: 50%;
+}
+
+@media screen and (min-width: 480px) {
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+    margin-left: -130%;
+    margin-top: 30%;
+  }
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcons {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 10%;
+  }
+}
+@media screen and (min-width: 570px) {
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+    margin-left: -150%;
+    margin-top: 30%;
+  }
+}
+@media screen and (min-width: 680px) {
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+    margin-left: -230%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .contacto .contactoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+  }
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+    margin-left: -120%;
+  }
+  .contacto .contactoContainer .contactoRegistrar {
+    height: 100%;
+  }
+  .contacto .contactoContainer .contactoRegistrar .tittle {
+    font-size: 130%;
+  }
+  .contacto .contactoContainer .contactoRegistrar .formSection label {
+    font-size: 110%;
+  }
+  .contacto .contactoContainer .contactoRegistrar .formSection input {
+    width: 100%;
+  }
+  .contacto .contactoContainer .contactoRegistrar .formSection textarea {
+    width: 100%;
+    height: 17rem;
+  }
+}
+@media screen and (min-width: 1333px) {
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+    margin-left: -190%;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 {
+    margin-bottom: 3%;
+  }
+  .contacto .contactoContainer .contactoDivIcons .contactoCont1 .contactoIcon .icon {
+    margin-left: -750%;
+  }
 }/*# sourceMappingURL=Contacto.css.map */

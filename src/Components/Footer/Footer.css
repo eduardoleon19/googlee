@@ -16,14 +16,12 @@
 .footer .footerContainer .footerLinks span {
   font-weight: 600;
 }
-.footer .footerContainer .footerLinks ul {
-  margin-top: 15px;
-}
-.footer .footerContainer .footerLinks ul li a {
+.footer .footerContainer .footerLinks p {
   color: black;
   transition: var(--transition);
+  margin-bottom: -3px;
 }
-.footer .footerContainer .footerLinks ul li a:hover {
+.footer .footerContainer .footerLinks p:hover {
   color: var(--primaryColor);
   margin-left: 10px;
   font-weight: 500;

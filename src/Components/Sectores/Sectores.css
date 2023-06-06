@@ -25,13 +25,13 @@
   display: flex;
 }
 .sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorIcon {
-  border: 2px solid orange;
+  border: 2px solid #34A853;
   padding: 1rem;
   width: 40px;
   height: auto;
   margin-left: 10%;
   border-radius: 95px;
-  background: orange;
+  background: #34A853;
 }
 .sectore .sectorContainer .sectorDivIcons .sectorDivIcon .sectorIcon .icon {
   color: white;

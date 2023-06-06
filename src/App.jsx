@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 import HomePage from "./Pages/HomePages/HomePage"
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import Header from "./Components/Header/Header";
@@ -9,7 +9,7 @@ import ContactPage from "./Pages/ContactPage/ContactPage";
 
 function App() {
     return(
-        <Router>
+        <HashRouter>
             <Header />
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
@@ -19,7 +19,7 @@ function App() {
                 <Route exact path="/contacto" element={<ContactPage />} />
             </Routes>
             <Footer />
-        </Router>
+        </HashRouter>
 
     )
 }

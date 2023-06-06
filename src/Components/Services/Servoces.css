@@ -1,6 +1,6 @@
 .service {
   width: 100%;
-  background: gray;
+  background: #FBBC05;
   margin-bottom: 7%;
 }
 .service .serviceContainer {
@@ -32,11 +32,11 @@
   margin-left: 10%;
 }
 .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivImgContainer {
-  border: 3px solid orange;
+  border: 3px solid #EA4335;
   padding: 0.5rem;
   border-radius: 70px;
   width: 97%;
-  background: orange;
+  background: #EA4335;
   margin-left: 1%;
 }
 .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivImgContainer .serviceDivImg {
@@ -107,10 +107,5 @@
   }
   .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText .ci {
     text-align: center;
-  }
-}
-@media screen and (min-width: 1333px) {
-  .service .servicePanel .serviceDivPanel .serviceDivImgPanelContain .serviceDivPanelText .ci {
-    margin-left: 21%;
   }
 }/*# sourceMappingURL=Servoces.css.map */

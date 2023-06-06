@@ -19,11 +19,12 @@
   border-radius: 20px;
 }
 .about .aboutContainer .aboutDivImgContainer .aboutDivImg:hover {
-  border: 3px solid var(--thirdColor);
+  border: 5px solid #EA4335;
 }
 .about .aboutContainer .aboutDivText h2 {
   font-size: 18px;
   text-align: center;
+  color: #4285F4;
 }
 .about .aboutContainer .aboutDivText p {
   margin-top: 10px;
